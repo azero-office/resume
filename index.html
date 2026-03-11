@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <style>
+      .page {
+        background-color: #f9f8f7;
+        width: 1920px;
+        height: 1080px;
+      }
+
+      .box {
+        margin-left: 60px;
+        background-color: #9bb97c;
+        width: 573px;
+        height: 987px;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+      }
+
+      .name {
+        padding-top: 70px;
+        text-align: center;
+        font-size: 75px;
+        color: #f9f8f7;
+      }
+      .enname {
+        line-height: 10px;
+        text-align: center;
+        font-size: 29px;
+        color: #fffbb5;
+      }
+      .profile {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        margin-left: 100px;
+        width: 350px;
+        border-radius: 500px;
+      }
+      .info {
+        margin-left: 90px;
+      }
+      .info_left {
+        font-size: 27px;
+        color: #fffbb5;
+        margin-left: 10px;
+      }
+      .info_right1 {
+        font-size: 27px;
+        color: #f9f8f7;
+        margin-left: 70px;
+      }
+      .info_right2 {
+        font-size: 27px;
+        color: #f9f8f7;
+        margin-left: 53px;
+      }
+      .info_right3 {
+        font-size: 27px;
+        color: #f9f8f7;
+        margin-left: 87px;
+      }
+      .info_right4 {
+        font-size: 27px;
+        color: #f9f8f7;
+        margin-left: 87px;
+      }
+      .port {
+        margin-left: 500px;
+        color: #9bb97c;
+        font-size: 29px;
+        font-weight: bold;
+        position: absolute;
+        top: 280px;
+        left: 270px;
+      }
+      .line1 {
+        margin-left: 500px;
+        background-color: #9bb97c;
+        position: absolute;
+        top: 350px;
+        left: 270px;
+        width: 1000px;
+        height: 1px;
+        border: 0;
+      }
+      .etc {
+        margin-left: 500px;
+        color: #9bb97c;
+        font-size: 29px;
+        font-weight: bold;
+        position: absolute;
+        top: 610px;
+        left: 270px;
+      }
+      .line2 {
+        margin-left: 500px;
+        background-color: #9bb97c;
+        position: absolute;
+        top: 680px;
+        left: 270px;
+        width: 1000px;
+        height: 1px;
+        border: 0;
+      }
+      .school1 {
+        color: #9bb97c;
+        font-size: 24px;
+        position: absolute;
+        top: 365px;
+        left: 910px;
+      }
+      .school_name1 {
+        color: #4b4b4b;
+        font-size: 24px;
+        position: absolute;
+        top: 365px;
+        left: 1030px;
+      }
+      .school2 {
+        color: #9bb97c;
+        font-size: 24px;
+        position: absolute;
+        top: 405px;
+        left: 955px;
+      }
+      .school_name2 {
+        color: #4b4b4b;
+        font-size: 24px;
+        position: absolute;
+        top: 405px;
+        left: 1030px;
+      }
+      .school3 {
+        color: #9bb97c;
+        font-size: 24px;
+        position: absolute;
+        top: 445px;
+        left: 910px;
+      }
+      .school_name3 {
+        color: #4b4b4b;
+        font-size: 24px;
+        position: absolute;
+        top: 445px;
+        left: 1030px;
+      }
+      .school4 {
+        color: #9bb97c;
+        font-size: 24px;
+        position: absolute;
+        top: 485px;
+        left: 955px;
+      }
+      .school_name4 {
+        color: #4b4b4b;
+        font-size: 24px;
+        position: absolute;
+        top: 485px;
+        left: 1030px;
+      }
+      .school5 {
+        color: #9bb97c;
+        font-size: 24px;
+        position: absolute;
+        top: 525px;
+        left: 910px;
+      }
+      .school_name5 {
+        color: #4b4b4b;
+        font-size: 24px;
+        position: absolute;
+        top: 525px;
+        left: 1030px;
+      }
+      .mbti {
+        color: #9bb97c;
+        font-size: 24px;
+        position: absolute;
+        top: 700px;
+        left: 940px;
+      }
+      .mbti_name {
+        color: #4b4b4b;
+        font-size: 24px;
+        position: absolute;
+        top: 700px;
+        left: 1030px;
+      }
+      .motto {
+        color: #9bb97c;
+        font-size: 24px;
+        position: absolute;
+        top: 740px;
+        left: 935px;
+      }
+      .motto_name {
+        color: #4b4b4b;
+        font-size: 24px;
+        position: absolute;
+        top: 740px;
+        left: 1030px;
+      }
+      .home {
+        color: #9bb97c;
+        font-size: 24px;
+        position: absolute;
+        top: 780px;
+        left: 930px;
+      }
+      .home_name {
+        color: #4b4b4b;
+        font-size: 24px;
+        position: absolute;
+        top: 780px;
+        left: 1030px;
+      }
+      .hb {
+        color: #9bb97c;
+        font-size: 24px;
+        position: absolute;
+        top: 820px;
+        left: 955px;
+      }
+      .hb_name {
+        color: #4b4b4b;
+        font-size: 24px;
+        position: absolute;
+        top: 820px;
+        left: 1030px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="box">
+        <h1 class="name">정아영</h1>
+        <p class="enname">ayeongJeong | 鄭峨營</p>
+        <img class="profile" src="https://m.winner797.kr/images/ran_4.jpg" />
+        <p class="info">
+          <span class="info_left">Birth</span
+          ><span class="info_right1">2001.01.02</span>
+        </p>
+        <p class="info">
+          <span class="info_left">E-mail</span
+          ><span class="info_right2">azero.office@gmail.com</span>
+        </p>
+        <p class="info">
+          <span class="info_left">Tel.</span
+          ><span class="info_right3">010-9173-5712</span>
+        </p>
+        <p class="info">
+          <span class="info_left">age</span><span class="info_right4">26</span>
+        </p>
+      </div>
+      <p class="port">학력 및 경력사항</p>
+      <hr class="line1" />
+      <p class="school1">고등학교</p>
+      <p class="school_name1">U-정보통신과</p>
+      <p class="school2">대학</p>
+      <p class="school_name2">항공정비</p>
+      <p class="school3">하이테크</p>
+      <p class="school_name3">그린반도체설계과</p>
+      <p class="school4">회사</p>
+      <p class="school_name4">한국전자기술연구원</p>
+      <p class="school5">하이테크</p>
+      <p class="school_name5">데이터분석과</p>
+      <p class="etc">기타</p>
+      <hr class="line2" />
+      <p class="mbti">MBTI</p>
+      <p class="mbti_name">eNTJ</p>
+      <p class="motto">좌우명</p>
+      <p class="motto_name">
+        '삼인행필유아사 三人行必有我師 세 사람이 길을 가면 반드시 내 스승이 있다
+      </p>
+      <p class="home">사는 곳</p>
+      <p class="home_name">경기도 성남시(모란역)</p>
+      <p class="hb">취미</p>
+      <p class="hb_name">게임</p>
+  </body>
+</html>
